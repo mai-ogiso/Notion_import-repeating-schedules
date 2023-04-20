@@ -17,7 +17,7 @@ This script offers a solution by providing two functions that let you easily add
 
 The image below shows a sample.
 
-`Need to bring lunchbox` entries were imported by (*1)
+`Need to bring lunchbox` entries were imported by (*1)  
 `🏊Swimming` entries were imported by (*2)  
 
 ![Notion-repeating-schedule-sample](https://user-images.githubusercontent.com/95740190/233186709-885bf5eb-2ee8-4854-a16a-97e679940146.png)
