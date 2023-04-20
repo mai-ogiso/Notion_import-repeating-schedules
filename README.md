@@ -1,25 +1,25 @@
 # Import Repeating Schedules to Notion Calendar
 
-This script allows you to easily add repeating schedules to your Notion calendar.
+This script allows you to easily add repeating schedules to your Notion calendar.  
 As you may know, there has already been a [built-in function](https://www.notion.so/help/guides/automate-work-repeating-database-templates) to set up recurring tasks using templates.
 
-Though it is a great function, there are some limitations to this function now (2023/04/20).
+Though it is a great function, there are some limitations to this function now (2023/04/20).  
 The most notable point is:
 > The built-in function only generates tasks on the day they are due, making it difficult to look ahead in the calendar.
 
 This script offers a solution by providing two functions that let you easily add repeating schedules to your Notion calendar.
 
-- **monthly-repeating-schedules**(*1) :
+- **monthly-repeating-schedules**(*1) :  
    This function allows you to add monthly repeating schedules to your Notion calendar. For example, if you need to bring a lunchbox on some days of the month, you can use this function to add those events to your calendar automatically without having to do it manually each time.
 
-- **repeating-schedules-with-duration**(*2) :
+- **repeating-schedules-with-duration**(*2) :  
     This function allows you to add repeating schedules with a duration to your Notion calendar. For example, if you have a weekly swim session that lasts for 1 hour, you can use this function to add it to your calendar with just a few clicks.
 
 The image below shows a sample.
 
 `Need to bring lunchbox` entries were imported by (*1)
+`🏊Swimming` entries were imported by (*2)  
 
-`🏊Swimming` entries were imported by (*2)
 ![Notion-repeating-schedule-sample](https://user-images.githubusercontent.com/95740190/233186709-885bf5eb-2ee8-4854-a16a-97e679940146.png)
 
 
@@ -46,7 +46,7 @@ Before using this script, make sure you have the following prerequisites install
     | Tags          | select        | "Elementary School" |
     | Family member | multi-select  | "Riley", "Jordan" |
 
-1. Define the repeated days and other required item.
+1. Define the repeated days and other required item.  
 
     1. monthly-repeating-schedules
 
@@ -58,7 +58,7 @@ Before using this script, make sure you have the following prerequisites install
     | tag          | "elementary school" |
     | family_members | "Mom", "Riley", "Jordan" |
 
-    2. repeating-schedules-with-duration
+    2. repeating-schedules-with-duration  
 
     | Variable Name | Sample             |
     |---------------|--------------------|
@@ -72,7 +72,7 @@ Before using this script, make sure you have the following prerequisites install
     | setDayOfWeek | 0 |
 
 
-1. Run `node import-japanese-holidays.js` or `node repeating-schedules-with-duration`to import repeating schedules into your Notion calendar.
+1. Run `node monthly-repeating-schedules.js` or `node repeating-schedules-with-duration`to import repeating schedules into your Notion calendar.
 
 
 ### Optimization
